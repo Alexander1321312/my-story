@@ -1,0 +1,47 @@
+                <<<<Let's learn about git version control>>>>
+
+                <<Git status>>>
+This command shows untracked files(highlighted in red color).It's something which is inside your working directory but not into staging area
+
+
+                  <<<git add>>>
+This is used to put file into staging area in order to track changes.
+The file in staging area are highlighted as green 
+
+I.E:git add filename 
+
+
+                        <<<git commit -m>>>
+It's gti commit message. It is used to commit file changes and you can add message right after it
+For Example:git commit -m "Initial commit".
+
+                        <<<git log>>>
+This command is used to see what commit you have made
+                          
+                          <<<git add .>>
+This command is used to send everything into staging area of the current directory.
+
+
+                    <<<Working directory>>>
+It is the folder or directory where you initialize git.
+
+                   <<<git diff>>
+Use this command to see what is the difference between the last save and  the current version of the file or folder or repositery.
+For Example: git diff chapter2
+
+                   ____ <<<Revert Changes>>>___
+                    
+                    <<git checkout>>
+It is used to revert changes . It update the file to last save point
+Syntax: git checkout filename
+
+                    <<<git remote add origin>>>
+This command is used to transfer all your commit to the github remote repositery,
+Origin is the the of your remote, you can call it wathever you want but it's recomeded to use origin.
+Syntax: git remote add origin url of repositery.
+
+
+               <<<git push -u origin main>>>
+
+it isad used to push local repositery onto remote repositery
+Syntax:git push -u origin main
